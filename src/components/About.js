@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pdf from '../sharathct.pdf'
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -7,9 +8,16 @@ export default class About extends Component {
          <div className="row">
 
             <div className="three columns">
-
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
+               <div className="row">
+                  <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+               </div>
+               <div className="row">
+                  <br/>
+                  <br/>
+               <div className="four columns">
+               <a href={pdf} target="_blank"><i className="fas fa-file-pdf fa-5x"/></a>
+               </div>
+               </div>
             </div>
 
             <div className="nine columns main-col">

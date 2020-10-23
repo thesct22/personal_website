@@ -12,14 +12,24 @@ let resumeData = {
     "roleDescription": "I like to work on multiple stuff and learn even more stuff so I'm always self-sufficient when on a project. Went from IoT to Web Dev to Cloud Enginerring to App Dev and currently DevOps",
     "socialLinks":[
         {
+          "name":"gmail",
+          "url":"mailto:sharathct22@gmail.com?",
+          "className":"fas fa-envelope"
+        },
+        {
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/sharathct22",
-          "className":"fa fa-linkedin"
+          "className":"fab fa-linkedin"
         },
         {
           "name":"github",
           "url":"http://github.com/thesct22",
-          "className":"fa fa-github"
+          "className":"fab fa-github"
+        },
+        {
+          "name":"docker",
+          "url":"https://hub.docker.com/u/thesct22",
+          "className":"fab fa-docker"
         },
         {
           "name":"whatsapp",
@@ -29,7 +39,7 @@ let resumeData = {
         {
           "name":"twitter",
           "url":"https://twitter.com/TheSCT22",
-          "className":"fa fa-twitter"
+          "className":"fab fa-twitter"
         }
       ],
     "aboutme":"I am currently a final year student at VIT Vellore and pursuing my B.Tech from here. Originally from Electronics and Communications Engineering background, the 'specialization in IoT' part lead me to Web Dev and now DevOps",

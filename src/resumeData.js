@@ -104,27 +104,32 @@ let resumeData = {
       {
         "name":"ThatApp",
         "description":"Containerized Social Media Website Using MERN Stack",
+        "url":"https://github.com/thesct22/thotappFrontend",
         "imgurl":thatapp
       },
       {
         "name":"AC Check",
         "description":"Monitoring of air-conditioning in warehouses",
-        "imgurl":hvac
+        "imgurl":hvac,
+        "url":"https://github.com/thesct22/Centralized-AC-Monitoring"
       },
       {
         "name":"Pickman",
         "description":"simple wifi based bot with servo motor arms",  
-        "imgurl":pickman
+        "imgurl":pickman,
+        url:"https://github.com/thesct22/Pickman"
       },
       {
         "name":"3D Plot",
         "description":"3D Plotting of cubic interpolated temperature data Bokeh Server on GCP Compute Engine",
-        "imgurl":plot
+        "imgurl":plot,
+        "url":"https://github.com/thesct22/3dplot"
       },
       {
         "name":"AC App",
         "description":"Mobile App with Firebase integration and WebView for 3D Plotting",
-        "imgurl":app
+        "imgurl":app,
+        "url":"https://github.com/thesct22/Air-Condition-App"
       }
     ],
     "testimonials":[

@@ -15,7 +15,7 @@ export default class About extends Component {
                   <br/>
                   <br/>
                <div className="four columns">
-               <a href={pdf} target="_blank"><i className="fas fa-file-pdf fa-5x"/></a>
+               <a href={pdf} target="_blank" rel="noopener noreferrer"><i className="fas fa-file-pdf fa-5x"/></a>
                </div>
                </div>
             </div>

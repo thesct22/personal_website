@@ -102,33 +102,33 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"ThatApp",
-        "description":"Containerized Social Media Website Using MERN Stack",
+        "title":"ThatApp",
+        "category":"Containerized Social Media Website Using MERN Stack",
         "url":"https://github.com/thesct22/thotappFrontend",
-        "imgurl":thatapp
+        "image":thatapp
       },
       {
-        "name":"AC Check",
-        "description":"Monitoring of air-conditioning in warehouses",
-        "imgurl":hvac,
+        "title":"AC Check",
+        "category":"Monitoring of air-conditioning in warehouses",
+        "image":hvac,
         "url":"https://github.com/thesct22/Centralized-AC-Monitoring"
       },
       {
-        "name":"Pickman",
-        "description":"simple wifi based bot with servo motor arms",  
-        "imgurl":pickman,
-        url:"https://github.com/thesct22/Pickman"
+        "title":"Pickman",
+        "category":"simple wifi based bot with servo motor arms",  
+        "image":pickman,
+        "url":"https://github.com/thesct22/Pickman"
       },
       {
-        "name":"3D Plot",
-        "description":"3D Plotting of cubic interpolated temperature data Bokeh Server on GCP Compute Engine",
-        "imgurl":plot,
+        "title":"3D Plot",
+        "category":"3D Plotting of cubic interpolated temperature data Bokeh Server on GCP Compute Engine",
+        "image":plot,
         "url":"https://github.com/thesct22/3dplot"
       },
       {
-        "name":"AC App",
-        "description":"Mobile App with Firebase integration and WebView for 3D Plotting",
-        "imgurl":app,
+        "title":"AC App",
+        "category":"Mobile App with Firebase integration and WebView for 3D Plotting",
+        "image":app,
         "url":"https://github.com/thesct22/Air-Condition-App"
       }
     ],

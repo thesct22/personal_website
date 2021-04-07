@@ -3,6 +3,8 @@ import hvac from "./images/hvac.jpg";
 import pickman from "./images/pickman.jpg";
 import plot from "./images/plot.jpg";
 import app from "./images/app.jpg";
+import twittermusic from "./images/twittermusic.png"
+import envmon from "./images/EnvMon.jpg"
 let resumeData = {
     "imagebaseurl":"https://thesct22.github.io/",
     "name": "Sharath Cherian Thomas",
@@ -44,14 +46,14 @@ let resumeData = {
       ],
     "aboutme":"I am currently a final year student at VIT Vellore and pursuing my B.Tech from here. Originally from Electronics and Communications Engineering background, the 'specialization in IoT' part lead me to Web Dev and now DevOps",
     "address":"Oonnukallel, Chembukadave, Kodenchery, Calicut, Kerala, India.",
-    "website":"https://thesct22.github.io",
+    "website":"https://www.sharath.is-a.dev",
     "education":[
       {
         "UniversityName":"Vellore Institute of Technology, Vellore",
-        "specialization":"B. Tech.",
+        "specialization":"B. Tech. Electronics and Communications Engineering with Specialization in IoT and Sensors",
         "MonthOfPassing":"July",
         "YearOfPassing":"2021",
-        "Achievements":"Ex Technical Head, International Society of Automation- VIT  Section"
+        "Achievements":"Ex Technical Head, International Society of Automation - VIT Section"
       }
     ],
     "work":[
@@ -64,7 +66,7 @@ let resumeData = {
       },
       {
         "CompanyName":"Samsung Prism Project",
-        "specialization":"Intern",
+        "specialization":" Project Intern",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2020",
         "Achievements":"Worked on Embedded Systems and IoT"
@@ -73,13 +75,19 @@ let resumeData = {
     "skillsDescription":"Technical Skills",
     "skills":[
       {
-        "skillname":"MERN"
-      },
-      {
         "skillname":"Goole Cloud Computing"
       },
       {
         "skillname":"Docker"
+      },
+      {
+        "skillname":"Kubernetes"
+      },
+      {
+        "skillname":"DevOps"
+      },
+      {
+        "skillname":"MERN"
       },
       {
         "skillname":"Andoid Studio"
@@ -95,10 +103,7 @@ let resumeData = {
       },
       {
         "skillname":"Embedded C"
-      },
-      {
-        "skillname":"C++"
-      },
+      }
     ],
     "portfolio":[
       {
@@ -106,6 +111,12 @@ let resumeData = {
         "category":"Containerized Social Media Website Using MERN Stack",
         "url":"https://github.com/thesct22/thotappFrontend",
         "image":thatapp
+      },
+      {
+        "title":"Music Finder",
+        "category":"Finds most tweeted songs and artists on Spotify and Soundcloud",
+        "url":"https://github.com/thesct22/musicfinder-frontend",
+        "image":twittermusic
       },
       {
         "title":"AC Check",
@@ -130,6 +141,12 @@ let resumeData = {
         "category":"Mobile App with Firebase integration and WebView for 3D Plotting",
         "image":app,
         "url":"https://github.com/thesct22/Air-Condition-App"
+      },
+      {
+        "title":"EnvMon App",
+        "category":"Mobile App for plotting temperature and humidity of 10 sensors and filter the data",
+        "image":envmon,
+        "url":"https://github.com/thesct22/EnvMon"
       }
     ],
     "testimonials":[

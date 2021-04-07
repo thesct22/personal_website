@@ -1,11 +1,14 @@
 {
-  "homepage":"https://sharath.is-a.dev",
+  "homepage": "https://sharath.is-a.dev",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-image-overlay-effect": "^1.0.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {

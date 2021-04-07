@@ -158,6 +158,16 @@ let resumeData = {
         "description":"Amazing friend and a great mentor. I have personally known Sharath from my first year in VIT. Sharath is an energetic and hardworking individual who tries to improve and widen his skillset each day. I could always approach him for any doubts regarding microcontrollers or microprocessors and he was extremely enthusiastic to help me out.",
         "name":"Christeen T. Jose"
       }
+    ],
+    "papers":[
+      {
+        "title":"Efficient Method to Reduce Power Consumption in Air-Conditioning System of Warehouses",
+        "doi":"https://doi.org/10.1007/978-981-15-8221-9_16"
+      },
+      {
+        "title":"Early Maintenance and Diagnosis of Connected Machines Using Machine Learning",
+        "doi":"http://dx.doi.org/10.34218/ijeet.11.4.2020.046"
+      }
     ]
   }
   

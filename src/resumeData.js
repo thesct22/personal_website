@@ -87,19 +87,27 @@ let resumeData = {
         "skillname":"DevOps"
       },
       {
-        "skillname":"MERN"
+        "skillname":"MERN Stack"
       },
       {
         "skillname":"Andoid Studio"
       },
       {
         "skillname":"Raspberry Pi"
+      }],
+      "languagesDescription":"Languages",
+      "languages":[
+      {
+        "skillname":"JavaScript"
       },
       {
         "skillname":"Java"
       },
       {
         "skillname":"Python"
+      },
+      {
+        "skillname":"SQL"
       },
       {
         "skillname":"Embedded C"
@@ -162,11 +170,13 @@ let resumeData = {
     "papers":[
       {
         "title":"Efficient Method to Reduce Power Consumption in Air-Conditioning System of Warehouses",
-        "doi":"https://doi.org/10.1007/978-981-15-8221-9_16"
+        "doi":"https://doi.org/10.1007/978-981-15-8221-9_16",
+        "cite": `Sujatha, R., Sivakumar Subramaniam, Sharath Cherian Thomas, Eknoor Oberoi, and Achint Mathews. "Efficient Method to Reduce Power Consumption in Air-Conditioning System of Warehouses." In Advances in Automation, Signal Processing, Instrumentation, and Control: Select Proceedings of i-CASIC 2020, pp. 173-183. Springer Singapore, 2021.`
       },
       {
         "title":"Early Maintenance and Diagnosis of Connected Machines Using Machine Learning",
-        "doi":"http://dx.doi.org/10.34218/ijeet.11.4.2020.046"
+        "doi":"http://dx.doi.org/10.34218/ijeet.11.4.2020.046",
+        "cite": `Sharath Cherian Thomas, R. Srivatsan, and Ravi Kumar C V. "Early Maintenance and Diagnosis of Connected Machines Using Machine Learning." International Journal of Electrical Engineering and Technology 11, no. 4 (2020).`
       }
     ]
   }

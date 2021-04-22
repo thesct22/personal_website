@@ -75,7 +75,7 @@ let resumeData = {
     "skillsDescription":"Technical Skills",
     "skills":[
       {
-        "skillname":"Goole Cloud Computing"
+        "skillname":"Google Cloud Computing"
       },
       {
         "skillname":"Docker"

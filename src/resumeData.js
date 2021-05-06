@@ -178,7 +178,13 @@ let resumeData = {
         "doi":"http://dx.doi.org/10.34218/ijeet.11.4.2020.046",
         "cite": `Sharath Cherian Thomas, R. Srivatsan, and Ravi Kumar C V. "Early Maintenance and Diagnosis of Connected Machines Using Machine Learning." International Journal of Electrical Engineering and Technology 11, no. 4 (2020).`
       }
-    ]
+    ],
+    "ppt":
+      {
+        "title": "Introduction to DevOps",
+        "url": "https://1drv.ms/p/s!AtQ3LtWbSeZQ0ztufe4SjF7-S094?e=9hPBUy"
+      }
+    
   }
   
   export default resumeData

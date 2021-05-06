@@ -7,16 +7,16 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any work or suggestions below
+                If you're here after the session, here's the link to the ppt
               </p>
             </div>
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>LinkedIn :
-                  {resumeData.linkedinId}
-                </h4>
+                <a href={resumeData.ppt.url}>
+                  {resumeData.ppt.title}
+                </a>
               </div>
             </aside>
           </div>

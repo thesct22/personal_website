@@ -8,10 +8,10 @@ import envmon from "./images/EnvMon.jpg"
 let resumeData = {
     "imagebaseurl":"https://thesct22.github.io/",
     "name": "Sharath Cherian Thomas",
-    "role": "Cloud Engineer and Full Stack Developer",
+    "role": "DevOps Enthusiast",
     "linkedinId":"https://www.linkedin.com/in/sharathct22",
     "skypeid": "live:cheriansharath5",
-    "roleDescription": "I like to work on multiple stuff and learn even more stuff so I'm always self-sufficient when on a project. Went from IoT to Web Dev to Cloud Enginerring to App Dev and currently DevOps",
+    "roleDescription": "I like to work on multiple projects and learn from different tech domains. Went from IoT to Web Dev to Cloud Engineering to App Dev and currently DevOps.",
     "socialLinks":[
         {
           "name":"gmail",
@@ -46,7 +46,8 @@ let resumeData = {
       ],
     "aboutme":"I am currently a final year student at VIT Vellore and pursuing my B.Tech from here. Originally from Electronics and Communications Engineering background, the 'specialization in IoT' part lead me to Web Dev and now DevOps",
     "address":"Oonnukallel, Chembukadave, Kodenchery, Calicut, Kerala, India.",
-    "website":"https://www.sharath.is-a.dev",
+    "website":"https://sharath.is-a.dev",
+    "phone":"+91 9048611293",
     "education":[
       {
         "UniversityName":"Vellore Institute of Technology, Vellore",

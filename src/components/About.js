@@ -15,7 +15,10 @@ export default class About extends Component {
                   <br/>
                   <br/>
                <div className="four columns">
-               <a href={pdf} target="_blank" rel="noopener noreferrer"><i className="fas fa-file-pdf fa-5x"/></a>
+               <a href={pdf} target="_blank" rel="noopener noreferrer">
+                  <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Resume</h3>
+                  <i className="fas fa-file-pdf fa-5x"/>
+               </a>
                </div>
                </div>
             </div>
@@ -42,6 +45,8 @@ export default class About extends Component {
                     </span>
                     <br></br>
                     <span>{resumeData.website}</span>
+                    <br></br>
+                    <span>{resumeData.phone}</span>
        					   </p>
                   </div>
                </div>

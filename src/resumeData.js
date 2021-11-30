@@ -3,8 +3,10 @@ import hvac from "./images/hvac.jpg";
 import pickman from "./images/pickman.jpg";
 import plot from "./images/plot.jpg";
 import app from "./images/app.jpg";
-import twittermusic from "./images/twittermusic.png"
-import envmon from "./images/EnvMon.jpg"
+import twittermusic from "./images/twittermusic.png";
+import envmon from "./images/EnvMon.jpg";
+import glcm from "./images/glcm.png";
+import ezyshare from "./images/ezyshare.png";
 let resumeData = {
     "imagebaseurl":"https://thesct22.github.io/",
     "name": "Sharath Cherian Thomas",
@@ -44,39 +46,54 @@ let resumeData = {
           "className":"fab fa-twitter"
         }
       ],
-    "aboutme":"I am currently a final year student at VIT Vellore and pursuing my B.Tech from here. Originally from Electronics and Communications Engineering background, the 'specialization in IoT' part lead me to Web Dev and now DevOps",
-    "address":"Oonnukallel, Chembukadave, Kodenchery, Calicut, Kerala, India.",
+    "aboutme":"Inquisitive and innovative computer science student pursuing Master’s degree from the University of Leicester skilled in DevOps, cloud technologies, mobile and web development. Lead a student chapter as technical head and published multiple papers. Seeking to leverage development and leadership skills in a technical role.",
+    "address":"18 Oxford Road, Leicester, United Kingdom, LE2 1TN.",
     "website":"https://sharath.is-a.dev",
-    "phone":"+91 9048611293",
+    "phone":"+44 7435671897",
     "education":[
+      {
+        "UniversityName":"University of Leicester",
+        "specialization":"MSc. Advanced Computer Science with Industry",
+        "MonthOfPassing":"September",
+        "YearOfPassing":"2023"
+      },
       {
         "UniversityName":"Vellore Institute of Technology, Vellore",
         "specialization":"B. Tech. Electronics and Communications Engineering with Specialization in IoT and Sensors",
         "MonthOfPassing":"July",
-        "YearOfPassing":"2021",
-        "Achievements":"Ex Technical Head, International Society of Automation - VIT Section"
-      }
+        "YearOfPassing":"2021"
+      } 
     ],
     "work":[
+      {
+        "CompanyName":"Samsung Reasearch Institute, Bangalore",
+        "specialization":"Project Intern",
+        "MonthOfLeaving":"August",
+        "YearOfLeaving":"2020",
+        "Achievements":"Developed IoT solutions for Samsung Watch and TV on Tizen OS using C and JavaScript."
+      },
       {
         "CompanyName":"Edgate Technologies Pvt. Ltd.",
         "specialization":"Intern",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2019",
-        "Achievements":"Worked on Texas Instruments Launchpads."
+        "Achievements":"Devloped IoT solutions on Texas Instruments Launchpads."
       },
       {
-        "CompanyName":"Samsung Prism Project",
-        "specialization":" Project Intern",
-        "MonthOfLeaving":"July",
+        "CompanyName":"International Society of Automation, Student Chapter",
+        "specialization":"Technical Lead",
+        "MonthOfLeaving":"April",
         "YearOfLeaving":"2020",
-        "Achievements":"Worked on Embedded Systems and IoT"
+        "Achievements":"Lead a student chapter with over 100 members, conducted regular technical sessions on various fields in automation."
       }
     ],
     "skillsDescription":"Technical Skills",
     "skills":[
       {
-        "skillname":"Google Cloud Computing"
+        "skillname":"Google Cloud Platform"
+      },
+      {
+        "skillname":"Amazon Web Services"
       },
       {
         "skillname":"Docker"
@@ -86,6 +103,15 @@ let resumeData = {
       },
       {
         "skillname":"DevOps"
+      },
+      {
+        "skillname":"Ansible"
+      },
+      {
+        "skillname":"Jenkins"
+      },
+      {
+        "skillname":"Terraform"
       },
       {
         "skillname":"MERN Stack"
@@ -105,6 +131,9 @@ let resumeData = {
         "skillname":"Java"
       },
       {
+        "skillname":"Golang"
+      },
+      {
         "skillname":"Python"
       },
       {
@@ -116,9 +145,15 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "title":"ThatApp",
+        "title":"EzyShare",
+        "category":"An application to easily share small files across devices directly (P2P) with minimal interaction with a server",
+        "url":"https://github.com/thesct22/ezyshare",
+        "image":ezyshare
+      },
+      {
+        "title":"SocialApp",
         "category":"Containerized Social Media Website Using MERN Stack",
-        "url":"https://github.com/thesct22/thotappFrontend",
+        "url":"https://github.com/thesct22/socialappFrontend",
         "image":thatapp
       },
       {
@@ -126,6 +161,12 @@ let resumeData = {
         "category":"Finds most tweeted songs and artists on Spotify and Soundcloud",
         "url":"https://github.com/thesct22/musicfinder-frontend",
         "image":twittermusic
+      },
+      {
+        "title":"GLCM Matrix",
+        "category":"Webapp to find the GLCM of a random matrix generated by user for different distance vectors.",
+        "image":glcm,
+        "url":"https://github.com/thesct22/glcm-matrix"
       },
       {
         "title":"AC Check",

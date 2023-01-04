@@ -24,3 +24,6 @@ yarn-error.log*
 
 #build folder
 ./build
+
+# lock files
+package-lock.json

@@ -47,7 +47,7 @@ let resumeData = {
         }
       ],
     "aboutme":"Inquisitive and innovative computer science student pursuing Master’s degree from the University of Leicester skilled in DevOps, cloud technologies, mobile and web development. Lead a student chapter as technical head and published multiple papers. Seeking to leverage development and leadership skills in a technical role.",
-    "address":"18 Oxford Road, Leicester, United Kingdom, LE2 1TN.",
+    "address":"3 Edward Street, Sheffield, United Kingdom, S3 7GE.",
     "website":"https://sharath.is-a.dev",
     "phone":"+44 7435671897",
     "education":[
@@ -65,6 +65,13 @@ let resumeData = {
       } 
     ],
     "work":[
+      {
+        "CompanyName":"Ansys UK Ltd.",
+        "specialization":"Intern",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2023",
+        "Achievements":"Helped in creating and maintaining standardized CI/CD pipelines on GitHub for solution applications."
+      },
       {
         "CompanyName":"Samsung Reasearch Institute, Bangalore",
         "specialization":"Project Intern",

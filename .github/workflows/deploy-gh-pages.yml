@@ -56,5 +56,5 @@ jobs:
       run: |
         git config --global user.email $email
         git config --global user.name $name
-        git remote set-url origin https://$GH_PAT@github.com/thesct22/thesct22.github.io.git
+        git remote set-url origin https://$name:$GH_PAT@github.com/thesct22/thesct22.github.io.git
         npm run deploy

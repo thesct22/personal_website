@@ -1,22 +1,22 @@
 {
-  "main.css": "/static/css/main.8d7820be.chunk.css",
-  "main.js": "/static/js/main.33c1931c.chunk.js",
-  "main.js.map": "/static/js/main.33c1931c.chunk.js.map",
-  "static/js/1.7e9d1085.chunk.js": "/static/js/1.7e9d1085.chunk.js",
-  "static/js/1.7e9d1085.chunk.js.map": "/static/js/1.7e9d1085.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/sharathct.pdf": "/static/media/sharathct.bdfb213d.pdf",
-  "static/media/thatapp.jpg": "/static/media/thatapp.53307399.jpg",
-  "static/media/hvac.jpg": "/static/media/hvac.4e60b5b9.jpg",
-  "static/media/pickman.jpg": "/static/media/pickman.f2495945.jpg",
-  "static/media/plot.jpg": "/static/media/plot.26443fb8.jpg",
-  "static/media/app.jpg": "/static/media/app.8b012c24.jpg",
-  "static/media/EnvMon.jpg": "/static/media/EnvMon.07b0a6d5.jpg",
-  "static/media/glcm.png": "/static/media/glcm.e26a2eb8.png",
-  "static/media/ezyshare.png": "/static/media/ezyshare.9fe7957f.png",
-  "static/css/main.8d7820be.chunk.css.map": "/static/css/main.8d7820be.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.2e3de03040b744c9b92f7b7c757c5cf5.js": "/precache-manifest.2e3de03040b744c9b92f7b7c757c5cf5.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.4152c3d3.css",
+    "main.js": "/static/js/main.1f67a380.js",
+    "static/media/EnvMon.jpg": "/static/media/EnvMon.f5631fc5fd734d5d0cce.jpg",
+    "static/media/hvac.jpg": "/static/media/hvac.ba2f8f6cb254c92d3113.jpg",
+    "static/media/sharathct.pdf": "/static/media/sharathct.f5e3411e1e829bdaebc4.pdf",
+    "static/media/glcm.png": "/static/media/glcm.551776856bd54bcf2d34.png",
+    "static/media/thatapp.jpg": "/static/media/thatapp.b1848b24fa197943fd59.jpg",
+    "static/media/pickman.jpg": "/static/media/pickman.cc8e0b1d61481778224a.jpg",
+    "static/media/plot.jpg": "/static/media/plot.d977920cd58d34827e5a.jpg",
+    "static/media/ezyshare.png": "/static/media/ezyshare.fe176e98c631bfaa7af9.png",
+    "static/media/app.jpg": "/static/media/app.cea115051dcdcd0ce197.jpg",
+    "index.html": "/index.html",
+    "main.4152c3d3.css.map": "/static/css/main.4152c3d3.css.map",
+    "main.1f67a380.js.map": "/static/js/main.1f67a380.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4152c3d3.css",
+    "static/js/main.1f67a380.js"
+  ]
 }

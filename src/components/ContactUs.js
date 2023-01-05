@@ -14,7 +14,7 @@ export default class ContactUs extends Component {
           <div className="ten columns">
             <p className="lead">
               {/* eslint-disable-next-line */}
-              If you&aposre here after the session, here&aposs the link to the ppt
+              If you're here after the session, here's the link to the ppt
             </p>
           </div>
         </div>

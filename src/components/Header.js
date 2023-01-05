@@ -46,10 +46,12 @@ export default class Header extends Component {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">
-                Hey, I&aposm {resumeData.name}.
+                {/* eslint-disable-next-line */}
+                Hey, I'm {resumeData.name}.
               </h1>
               <h2 style={{color: '#fff', fontFamily: 'sans-serif '}}>
-                I&aposm a {resumeData.role}
+                {/* eslint-disable-next-line */}
+                I'm a {resumeData.role}
               </h2>
               <h3 style={{color: '#fff', fontFamily: 'sans-serif '}}>
                 {resumeData.roleDescription}

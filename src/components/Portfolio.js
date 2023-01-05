@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
-import { ImageOverlay } from "react-image-overlay-effect";
+import React, {Component} from 'react';
+import {ImageOverlay} from 'react-image-overlay-effect';
 
+/** Fills Portfolio section with data from resumeData */
 class Portfolio extends Component {
+  /** Render Portfolio section
+   * @param {Object} resumeData - Data from resumeData.js
+   * @return {JSX} Portfolio section
+  */
   render() {
-
-    if(this.props.resumeData){
-      var projects = this.props.resumeData.portfolio.map(function(projects){
-        var projectImage =projects.image;
+    let projects;
+    if (this.props.resumeData) {
+      projects = this.props.resumeData.portfolio.map(function(projects) {
+        const projectImage =projects.image;
         return <div key={projects.title} className="columns portfolio-item">
           <div >
             <ImageOverlay
@@ -14,32 +19,36 @@ class Portfolio extends Component {
               description={
                 <div>
                   <a href={projects.url}>
-                    <h5 style={{ color: "white", textAlign: "center", margin: "20px" }}>{projects.title}</h5>
+                    {/* eslint-disable-next-line */}
+                    <h5 style={{color: 'white', textAlign: 'center', margin: '20px'}}>{projects.title}</h5>
                   </a>
-                  <p style={{ color: "white", textAlign: "center", margin: "20px" }}>{projects.category}</p>
+                  {/* eslint-disable-next-line */}
+                  <p style={{color: 'white', textAlign: 'center', margin: '20px'}}>{projects.category}</p>
                 </div>
               }
             />
           </div>
-        </div>
-      })
+        </div>;
+      });
     }
 
     return (
       <section id="portfolio">
 
-      <div className="row">
+        <div className="row">
 
-         <div className="twelve columns collapsed">
+          <div className="twelve columns collapsed">
 
             <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+            <div id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
+            >
+              {projects}
             </div>
           </div>
-      </div>
-   </section>
+        </div>
+      </section>
     );
   }
 }

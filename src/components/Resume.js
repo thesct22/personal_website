@@ -1,62 +1,71 @@
-import React, { Component } from 'react';
-export default  class Resume extends Component {
+import React, {Component} from 'react';
+
+/** Fills Resume section with data from resumeData */
+export default class Resume extends Component {
+  /** Render Resume section
+   * @param {Object} resumeData - Data from resumeData.js
+   * @return {JSX} Resume section
+  */
   render() {
-    let resumeData = this.props.resumeData;
+    const resumeData = this.props.resumeData;
     return (
       <section id="resume">
 
         <div className="row education">
 
           <div className="three columns header-col">
-              <h1><span>Education</span></h1>
+            <h1><span>Education</span></h1>
           </div>
 
           <div className="nine columns main-col">
             {
-              resumeData.education && resumeData.education.map((item)=>{
-                return(
+              resumeData.education &&
+              resumeData.education.map((item)=>{
+                return (
                   <div className="row item" key={item.UniversityName}>
-                      <div className="twelve columns">
-                        <h3>{item.UniversityName}</h3>
-                        <p className="info">
+                    <div className="twelve columns">
+                      <h3>{item.UniversityName}</h3>
+                      <p className="info">
                         {item.specialization}
+                        {/* eslint-disable-next-line */}
                         <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                        <p>
+                      <p>
                         {item.Achievements}
-                        </p>
-                      </div>
+                      </p>
+                    </div>
                   </div>
-                )
+                );
               })
             }
           </div>
         </div>
         <div className="row work">
           <div className="three columns header-col">
-              <h1><span>Work</span></h1>
+            <h1><span>Work</span></h1>
           </div>
 
           <div className="nine columns main-col">
             {
               resumeData.work && resumeData.work.map((item) => {
-                return(
+                return (
                   <div className="row item" key={item.CompanyName}>
-                      <div className="twelve columns">
-                        <h3>{item.CompanyName}</h3>
-                        <p className="info">
+                    <div className="twelve columns">
+                      <h3>{item.CompanyName}</h3>
+                      <p className="info">
                         {item.specialization}
+                        {/* eslint-disable-next-line */}
                         <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                        <p>
+                      <p>
                         {item.Achievements}
-                        </p>
-                      </div>
+                      </p>
+                    </div>
 
                   </div>
 
-                )
+                );
               })
             }
-          </div> 
+          </div>
         </div>
 
         <div className="row education">
@@ -67,19 +76,21 @@ export default  class Resume extends Component {
 
           <div className="nine columns main-col">
             {
-              resumeData.papers && resumeData.papers.map((item)=>{
-                return(
+              resumeData.papers &&
+              resumeData.papers.map((item)=>{
+                return (
                   <div className="row item" key={item.title}>
                     <div className="twelve columns">
-                        <a href={item.doi} target="_blank" rel="noopener noreferrer">
-                          <h3>{item.title}</h3>
-                        </a>
-                        <p>
-                            {item.cite}
-                        </p>
+                      {/* eslint-disable-next-line */}
+                      <a href={item.doi} target="_blank" rel="noopener noreferrer">
+                        <h3>{item.title}</h3>
+                      </a>
+                      <p>
+                        {item.cite}
+                      </p>
                     </div>
                   </div>
-                )
+                );
               })
             }
           </div>
@@ -89,7 +100,7 @@ export default  class Resume extends Component {
         <div className="row skill">
 
           <div className="three columns header-col">
-              <h1><span>Skills</span></h1>
+            <h1><span>Skills</span></h1>
           </div>
 
           <div className="nine columns main-col">
@@ -101,26 +112,25 @@ export default  class Resume extends Component {
             <div>
 
               <ul className="skills">
-                  {
-                    resumeData.skills && resumeData.skills.map((item) => {
-                      return(
-                        <div key={item.skillname}>
-                          <li>
+                {
+                  resumeData.skills && resumeData.skills.map((item) => {
+                    return (
+                      <div key={item.skillname}>
+                        <li>
                           <em>{item.skillname}</em>
-                          </li>
-                        </div>
-                      )
-                    })
-                  }
+                        </li>
+                      </div>
+                    );
+                  })
+                }
 
               </ul>
 
             </div>
-            
 
-   			  </div>
+          </div>
 
-           <div className="nine columns main-col">
+          <div className="nine columns main-col">
 
             <h4>
               {resumeData.languagesDescription}
@@ -129,24 +139,24 @@ export default  class Resume extends Component {
             <div>
 
               <ul className="skills">
-                  {
-                    resumeData.languages && resumeData.languages.map((item) => {
-                      return(
-                        <div key={item.skillname}>
-                          <li>
+                {
+                  resumeData.languages && resumeData.languages.map((item) => {
+                    return (
+                      <div key={item.skillname}>
+                        <li>
                           <em>{item.skillname}</em>
-                          </li>
-                        </div>
-                      )
-                    })
-                  }
+                        </li>
+                      </div>
+                    );
+                  })
+                }
 
               </ul>
 
             </div>
-            
 
-   			  </div>
+
+          </div>
 
         </div>
 

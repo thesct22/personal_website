@@ -56,5 +56,5 @@ jobs:
       run: |
         git config --global user.email $email
         git config --global user.name $name
-        git remote set-url origin https://$name:$GITHUB_TOKEN"@"github.com/$name/$GITHUB_REPOSITORY.git
+        git remote set-url origin https://$GITHUB_TOKEN@github.com/thesct22/thesct22.github.io.git
         npm run deploy

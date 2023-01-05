@@ -1,7 +1,13 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+
+/** Fills Testimonials section with data from resumeData */
 export default class Testimonials extends Component {
+  /** Render Testimonials section
+   * @param {Object} resumeData - Data from resumeData.js
+   * @return {JSX} Testimonials section
+  */
   render() {
-    let resumeData = this.props.resumeData;
+    const resumeData = this.props.resumeData;
     return (
       <section id="testimonials">
         <div className="text-container">
@@ -13,17 +19,18 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
-                      return(
-                          <li key={item.name}>
-                            <blockquote>
-                              <p>
+                    resumeData.testimonials &&
+                    resumeData.testimonials.map((item)=>{
+                      return (
+                        <li key={item.name}>
+                          <blockquote>
+                            <p>
                               {item.description}
-                              </p>
-                              <cite>{item.name}</cite>
-                            </blockquote>
-                          </li>
-                      )
+                            </p>
+                            <cite>{item.name}</cite>
+                          </blockquote>
+                        </li>
+                      );
                     })
                   }
                 </ul>
@@ -32,6 +39,6 @@ export default class Testimonials extends Component {
           </div> {/* row ends */}
         </div>  {/* text-container ends */}
       </section>
-        );
+    );
   }
 }

@@ -49,4 +49,12 @@ jobs:
     
     - name: Deploy react app to github pages
       id: deploy-react-app
-      run: npm run deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_AUTH_PAT }}
+        email: ${{ secrets.GH_EMAIL }}
+        name: ${{ secrets.GH_NAME }}
+      run: |
+        git config --global user.email $email
+        git config --global user.name $name
+        git remote set-url origin https://$name:$GITHUB_TOKEN"@"github.com/$name/$GITHUB_REPOSITORY.git
+        npm run deploy

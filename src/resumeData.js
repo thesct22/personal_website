@@ -72,7 +72,7 @@ const resumeData = {
       'specialization': 'Intern',
       'MonthOfLeaving': 'June',
       'YearOfLeaving': '2023',
-      'Achievements': 'Helped in creating and maintaining standardized CI/CD pipelines on GitHub for solution applications.',
+      'Achievements': 'Helped in creating and maintaining standardized CI/CD pipelines on GitHub for solution applications, switched multiple repos from Azure DevOps monorepo to GitHub.',
     },
     {
       'CompanyName': 'Samsung Reasearch Institute, Bangalore',
